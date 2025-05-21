@@ -8,7 +8,7 @@ CONFIG_PATH = os.path.join(BASE_DIR, "config.json")
 
 # Cargar configuración desde el archivo JSON
 with open(CONFIG_PATH) as f:
-    config = json.load(f)  # Aquí está el error: faltaba cargar el JSON
+    config = json.load(f)  
 
 # Establecer conexión con SQL Server
 conn = pyodbc.connect(
