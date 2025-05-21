@@ -1,0 +1,8 @@
+{
+    "DRIVER": "{ODBC Driver 18 for SQL Server}",
+    "SERVER": "localhost,1433",
+    "DATABASE": "EmployeeDB",
+    "USER": "SA",
+    "PASSWORD": "P@ssw0rd123!",
+    "TrustServerCertificate": "yes"
+}
